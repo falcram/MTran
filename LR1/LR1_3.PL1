@@ -1,0 +1,42 @@
+test: PROCEDURE OPTIONS(main);
+
+   DECLARE A (3,4) CHARACTER(2);
+
+   DECLARE 1 Person,
+      2 Name CHARACTER(20),
+      2 Age FIXED BINARY;
+
+   DECLARE 1 student_list(100),
+      2 student_info,
+         3 last_name CHARACTER(20),
+         3 first_name CHARACTER(20);
+
+   DECLARE 1 Y,
+      2 field1 FIXED BINARY,
+      2 field2 CHARACTER(10);
+
+   DECLARE 1 X(1:100) STATIC LIKE Y;
+
+   A(1,1) = 'A1';
+   A(1,2) = 'B1';
+   A(2,1) = 'A2';
+   A(2,2) = 'B2';
+
+   Person.Name = 'Иван Иванов';
+   Person.Age = 25;
+
+   student_list(1).student_info.last_name = 'Петров';
+   student_list(1).student_info.first_name = 'Алексей';
+
+   X(1).field1 = 42;
+   X(1).field2 = 'Пример';
+
+   PUT LIST('Массив A(1,1): ', A(1,1));
+   PUT LIST('Массив A(2,1): ', A(2,1));
+   PUT LIST('Структура Person: ', Person.Name, Person.Age);
+   PUT LIST('Смешанный агрегат student_list(1): ',
+            student_list(1).student_info.last_name,
+            student_list(1).student_info.first_name);
+   PUT LIST('Переменная X(1) (LIKE Y): ', X(1).field1, X(1).field2);
+
+END test;

@@ -1,0 +1,52 @@
+test: PROCEDURE OPTIONS(main);
+
+   DECLARE I FIXED BINARY (10) STATIC INITIAL(1);
+
+    DO WHILE (I < 10);
+      I = I + 1;
+
+      IF MOD(I, 2) = 0 THEN CONTINUE;
+
+      PUT LIST('Значение I (нечетное): ', I);
+   END;
+
+   I = 1;
+
+   DO I = 1 REPEAT (I + 1);
+      IF I = 2 THEN
+         PUT LIST('Значение I (I = 2,  DO REPEAT): ', I);
+      ELSE
+         PUT LIST('Значение I (DO REPEAT): ', I);
+
+      IF I > 5 THEN LEAVE;
+   END I;
+
+   I = 1;
+
+   DO I = 1 REPEAT (I + 1) WHILE (I <= 5);
+      PUT LIST('Значение I (DO REPEAT WHILE): ', I);
+   END I;
+
+   I = 1;
+
+   DO I = 1 TO 5;
+      PUT LIST('Значение I (DO TO): ', I);
+   END I;
+
+   DO I = 1 TO 10 BY 2;
+      PUT LIST('Значение I (DO TO BY 2): ', I);
+   END I;
+
+   DO I = 1 TO 10 BY 2 WHILE (I <= 7);
+      PUT LIST('Значение I (DO TO BY WHILE): ', I);
+   END I;
+
+   DO I = 1 BY 2 TO 10;
+      PUT LIST('Значение I (DO BY с пределом): ', I);
+   END I;
+
+   DO I = 1, 3, 5, 15, 25, I = 100 TO 0 BY -4;
+      PUT LIST('Значение I: ', I);
+   END I;
+
+END test;

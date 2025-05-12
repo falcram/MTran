@@ -1,0 +1,1242 @@
+{
+  "type": "Procedure",
+  "header": {
+    "type": "ProcedureHeader",
+    "identifier": {
+      "type": "identifier",
+      "value": "test"
+    },
+    "separator": {
+      "type": "operator",
+      "value": ":"
+    },
+    "procedureKeyword": {
+      "type": "keyword",
+      "value": "PROCEDURE"
+    },
+    "optionsKeyword": {
+      "type": "keyword",
+      "value": "OPTIONS"
+    },
+    "openParen": {
+      "type": "operator",
+      "value": "("
+    },
+    "options": {
+      "type": "identifier",
+      "value": "main"
+    },
+    "closeParen": {
+      "type": "operator",
+      "value": ")"
+    },
+    "endHeader": {
+      "type": "operator",
+      "value": ";"
+    }
+  },
+  "declarations": [
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S1"
+        },
+        {
+          "type": "identifier",
+          "value": "CHAR"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "operator",
+          "value": "*"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "VAR"
+        },
+        {
+          "type": "keyword",
+          "value": "STATIC"
+        },
+        {
+          "type": "keyword",
+          "value": "INITIAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "yes"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S2"
+        },
+        {
+          "type": "identifier",
+          "value": "FIXED"
+        },
+        {
+          "type": "identifier",
+          "value": "DECIMAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "10"
+        },
+        {
+          "type": "operator",
+          "value": ","
+        },
+        {
+          "type": "numeric_constant",
+          "value": "5"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "STATIC"
+        },
+        {
+          "type": "keyword",
+          "value": "INITIAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "3674.799"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S3"
+        },
+        {
+          "type": "identifier",
+          "value": "BIT"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "9"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "STATIC"
+        },
+        {
+          "type": "keyword",
+          "value": "INITIAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "000100101"
+        },
+        {
+          "type": "identifier",
+          "value": "B"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S4"
+        },
+        {
+          "type": "identifier",
+          "value": "FIXED"
+        },
+        {
+          "type": "identifier",
+          "value": "BINARY"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "16"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "STATIC"
+        },
+        {
+          "type": "keyword",
+          "value": "INITIAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "12345"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S5"
+        },
+        {
+          "type": "identifier",
+          "value": "FLOAT"
+        },
+        {
+          "type": "identifier",
+          "value": "BINARY"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "24"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "STATIC"
+        },
+        {
+          "type": "keyword",
+          "value": "INITIAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "3.14159"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S6"
+        },
+        {
+          "type": "identifier",
+          "value": "DECIMAL"
+        },
+        {
+          "type": "identifier",
+          "value": "FLOAT"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "10"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "STATIC"
+        },
+        {
+          "type": "keyword",
+          "value": "INITIAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "3674.799"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S7"
+        },
+        {
+          "type": "identifier",
+          "value": "COMPLEX"
+        },
+        {
+          "type": "identifier",
+          "value": "FLOAT"
+        },
+        {
+          "type": "keyword",
+          "value": "STATIC"
+        },
+        {
+          "type": "keyword",
+          "value": "INITIAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "1+2I"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S8"
+        },
+        {
+          "type": "identifier",
+          "value": "LABEL"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S9"
+        },
+        {
+          "type": "identifier",
+          "value": "ENTRY"
+        },
+        {
+          "type": "identifier",
+          "value": "VARIABLE"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S10"
+        },
+        {
+          "type": "identifier",
+          "value": "POINTER"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    },
+    {
+      "type": "Declaration",
+      "declareKeyword": {
+        "type": "keyword",
+        "value": "DECLARE"
+      },
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S11"
+        },
+        {
+          "type": "keyword",
+          "value": "FILE"
+        }
+      ],
+      "endDeclaration": {
+        "type": "operator",
+        "value": ";"
+      }
+    }
+  ],
+  "statements": [
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "OPEN"
+        },
+        {
+          "type": "keyword",
+          "value": "FILE"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S11"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "UPDATE"
+        },
+        {
+          "type": "keyword",
+          "value": "RECORD"
+        },
+        {
+          "type": "keyword",
+          "value": "TITLE"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "output.txt"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "DECLARE"
+        },
+        {
+          "type": "identifier",
+          "value": "based_S2"
+        },
+        {
+          "type": "identifier",
+          "value": "FIXED"
+        },
+        {
+          "type": "identifier",
+          "value": "DECIMAL"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "numeric_constant",
+          "value": "10"
+        },
+        {
+          "type": "operator",
+          "value": ","
+        },
+        {
+          "type": "numeric_constant",
+          "value": "5"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "keyword",
+          "value": "BASED"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S10"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S9"
+        },
+        {
+          "type": "operator",
+          "value": "="
+        },
+        {
+          "type": "identifier",
+          "value": "simple_procedure"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S1"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S2"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S3"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S4"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S5"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S6"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S7"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "S10"
+        },
+        {
+          "type": "operator",
+          "value": "="
+        },
+        {
+          "type": "keyword",
+          "value": "ADDR"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "identifier",
+          "value": "S2"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "До, S2 = "
+        },
+        {
+          "type": "operator",
+          "value": ","
+        },
+        {
+          "type": "identifier",
+          "value": "S2"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "based_S2"
+        },
+        {
+          "type": "operator",
+          "value": "="
+        },
+        {
+          "type": "identifier",
+          "value": "S2"
+        },
+        {
+          "type": "operator",
+          "value": "+"
+        },
+        {
+          "type": "numeric_constant",
+          "value": "100"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "После, S2 = "
+        },
+        {
+          "type": "operator",
+          "value": ","
+        },
+        {
+          "type": "identifier",
+          "value": "S2"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "IF"
+        },
+        {
+          "type": "identifier",
+          "value": "S1"
+        },
+        {
+          "type": "operator",
+          "value": "="
+        },
+        {
+          "type": "string_constant",
+          "value": "yes"
+        },
+        {
+          "type": "keyword",
+          "value": "THEN"
+        },
+        {
+          "type": "identifier",
+          "value": "S8"
+        },
+        {
+          "type": "operator",
+          "value": "="
+        },
+        {
+          "type": "identifier",
+          "value": "geometric_mean"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "GOTO"
+        },
+        {
+          "type": "identifier",
+          "value": "S8"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "geometric_mean"
+        },
+        {
+          "type": "operator",
+          "value": ":"
+        },
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "Перешли в geometric_mean"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "CALL"
+        },
+        {
+          "type": "identifier",
+          "value": "S9"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "simple_procedure"
+        },
+        {
+          "type": "operator",
+          "value": ":"
+        },
+        {
+          "type": "keyword",
+          "value": "PROCEDURE"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "PUT"
+        },
+        {
+          "type": "keyword",
+          "value": "SKIP"
+        },
+        {
+          "type": "keyword",
+          "value": "LIST"
+        },
+        {
+          "type": "operator",
+          "value": "("
+        },
+        {
+          "type": "string_constant",
+          "value": "Вызвана simple_procedure"
+        },
+        {
+          "type": "operator",
+          "value": ")"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "keyword",
+          "value": "END"
+        }
+      ]
+    },
+    {
+      "type": "StatementBlock",
+      "tokens": [
+        {
+          "type": "identifier",
+          "value": "simple_procedure"
+        },
+        {
+          "type": "operator",
+          "value": ";"
+        }
+      ]
+    }
+  ],
+  "procedureEnd": {
+    "type": "ProcedureEnd",
+    "endKeyword": {
+      "type": "keyword",
+      "value": "END"
+    },
+    "identifier": {
+      "type": "identifier",
+      "value": "test"
+    },
+    "endSymbol": {
+      "type": "operator",
+      "value": ";"
+    }
+  }
+}

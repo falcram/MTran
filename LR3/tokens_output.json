@@ -1,0 +1,2053 @@
+[
+  {
+    "tokenID": 1,
+    "type": "identifier",
+    "value": "test",
+    "pos": 1,
+    "end": 4,
+    "pointer": 1
+  },
+  {
+    "tokenID": 2,
+    "type": "operator",
+    "value": ":",
+    "pos": 5,
+    "end": 5,
+    "pointer": 2
+  },
+  {
+    "tokenID": 3,
+    "type": "keyword",
+    "value": "PROCEDURE",
+    "pos": 7,
+    "end": 15
+  },
+  {
+    "tokenID": 4,
+    "type": "keyword",
+    "value": "OPTIONS",
+    "pos": 17,
+    "end": 23
+  },
+  {
+    "tokenID": 5,
+    "type": "operator",
+    "value": "(",
+    "pos": 24,
+    "end": 24,
+    "pointer": 5
+  },
+  {
+    "tokenID": 6,
+    "type": "identifier",
+    "value": "main",
+    "pos": 25,
+    "end": 28,
+    "pointer": 6
+  },
+  {
+    "tokenID": 7,
+    "type": "operator",
+    "value": ")",
+    "pos": 29,
+    "end": 29,
+    "pointer": 7
+  },
+  {
+    "tokenID": 8,
+    "type": "operator",
+    "value": ";",
+    "pos": 30,
+    "end": 30,
+    "pointer": 8
+  },
+  {
+    "tokenID": 9,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 35,
+    "end": 41
+  },
+  {
+    "tokenID": 10,
+    "type": "identifier",
+    "value": "S1",
+    "pos": 43,
+    "end": 44,
+    "pointer": 10
+  },
+  {
+    "tokenID": 11,
+    "type": "identifier",
+    "value": "CHAR",
+    "pos": 46,
+    "end": 49,
+    "pointer": 11
+  },
+  {
+    "tokenID": 12,
+    "type": "operator",
+    "value": "(",
+    "pos": 50,
+    "end": 50,
+    "pointer": 12
+  },
+  {
+    "tokenID": 13,
+    "type": "operator",
+    "value": "*",
+    "pos": 51,
+    "end": 51,
+    "pointer": 13
+  },
+  {
+    "tokenID": 14,
+    "type": "operator",
+    "value": ")",
+    "pos": 52,
+    "end": 52,
+    "pointer": 14
+  },
+  {
+    "tokenID": 15,
+    "type": "keyword",
+    "value": "VAR",
+    "pos": 54,
+    "end": 56
+  },
+  {
+    "tokenID": 16,
+    "type": "keyword",
+    "value": "STATIC",
+    "pos": 58,
+    "end": 63
+  },
+  {
+    "tokenID": 17,
+    "type": "keyword",
+    "value": "INITIAL",
+    "pos": 65,
+    "end": 71
+  },
+  {
+    "tokenID": 18,
+    "type": "operator",
+    "value": "(",
+    "pos": 72,
+    "end": 72,
+    "pointer": 18
+  },
+  {
+    "tokenID": 19,
+    "type": "string_constant",
+    "value": "yes",
+    "pos": 73,
+    "end": 77,
+    "pointer": 19
+  },
+  {
+    "tokenID": 20,
+    "type": "operator",
+    "value": ")",
+    "pos": 78,
+    "end": 78,
+    "pointer": 20
+  },
+  {
+    "tokenID": 21,
+    "type": "operator",
+    "value": ";",
+    "pos": 79,
+    "end": 79,
+    "pointer": 21
+  },
+  {
+    "tokenID": 22,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 84,
+    "end": 90
+  },
+  {
+    "tokenID": 23,
+    "type": "identifier",
+    "value": "S2",
+    "pos": 92,
+    "end": 93,
+    "pointer": 23
+  },
+  {
+    "tokenID": 24,
+    "type": "identifier",
+    "value": "FIXED",
+    "pos": 95,
+    "end": 99,
+    "pointer": 24
+  },
+  {
+    "tokenID": 25,
+    "type": "identifier",
+    "value": "DECIMAL",
+    "pos": 101,
+    "end": 107,
+    "pointer": 25
+  },
+  {
+    "tokenID": 26,
+    "type": "operator",
+    "value": "(",
+    "pos": 108,
+    "end": 108,
+    "pointer": 26
+  },
+  {
+    "tokenID": 27,
+    "type": "numeric_constant",
+    "value": "10",
+    "pos": 109,
+    "end": 110,
+    "pointer": 27
+  },
+  {
+    "tokenID": 28,
+    "type": "operator",
+    "value": ",",
+    "pos": 111,
+    "end": 111,
+    "pointer": 28
+  },
+  {
+    "tokenID": 29,
+    "type": "numeric_constant",
+    "value": "5",
+    "pos": 112,
+    "end": 112,
+    "pointer": 29
+  },
+  {
+    "tokenID": 30,
+    "type": "operator",
+    "value": ")",
+    "pos": 113,
+    "end": 113,
+    "pointer": 30
+  },
+  {
+    "tokenID": 31,
+    "type": "keyword",
+    "value": "STATIC",
+    "pos": 115,
+    "end": 120
+  },
+  {
+    "tokenID": 32,
+    "type": "keyword",
+    "value": "INITIAL",
+    "pos": 122,
+    "end": 128
+  },
+  {
+    "tokenID": 33,
+    "type": "operator",
+    "value": "(",
+    "pos": 129,
+    "end": 129,
+    "pointer": 33
+  },
+  {
+    "tokenID": 34,
+    "type": "numeric_constant",
+    "value": "3674.799",
+    "pos": 130,
+    "end": 137,
+    "pointer": 34
+  },
+  {
+    "tokenID": 35,
+    "type": "operator",
+    "value": ")",
+    "pos": 138,
+    "end": 138,
+    "pointer": 35
+  },
+  {
+    "tokenID": 36,
+    "type": "operator",
+    "value": ";",
+    "pos": 139,
+    "end": 139,
+    "pointer": 36
+  },
+  {
+    "tokenID": 37,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 144,
+    "end": 150
+  },
+  {
+    "tokenID": 38,
+    "type": "identifier",
+    "value": "S3",
+    "pos": 152,
+    "end": 153,
+    "pointer": 38
+  },
+  {
+    "tokenID": 39,
+    "type": "identifier",
+    "value": "BIT",
+    "pos": 155,
+    "end": 157,
+    "pointer": 39
+  },
+  {
+    "tokenID": 40,
+    "type": "operator",
+    "value": "(",
+    "pos": 158,
+    "end": 158,
+    "pointer": 40
+  },
+  {
+    "tokenID": 41,
+    "type": "numeric_constant",
+    "value": "9",
+    "pos": 159,
+    "end": 159,
+    "pointer": 41
+  },
+  {
+    "tokenID": 42,
+    "type": "operator",
+    "value": ")",
+    "pos": 160,
+    "end": 160,
+    "pointer": 42
+  },
+  {
+    "tokenID": 43,
+    "type": "keyword",
+    "value": "STATIC",
+    "pos": 162,
+    "end": 167
+  },
+  {
+    "tokenID": 44,
+    "type": "keyword",
+    "value": "INITIAL",
+    "pos": 169,
+    "end": 175
+  },
+  {
+    "tokenID": 45,
+    "type": "operator",
+    "value": "(",
+    "pos": 176,
+    "end": 176,
+    "pointer": 45
+  },
+  {
+    "tokenID": 46,
+    "type": "string_constant",
+    "value": "000100101",
+    "pos": 177,
+    "end": 187,
+    "pointer": 46
+  },
+  {
+    "tokenID": 47,
+    "type": "identifier",
+    "value": "B",
+    "pos": 188,
+    "end": 188,
+    "pointer": 47
+  },
+  {
+    "tokenID": 48,
+    "type": "operator",
+    "value": ")",
+    "pos": 189,
+    "end": 189,
+    "pointer": 48
+  },
+  {
+    "tokenID": 49,
+    "type": "operator",
+    "value": ";",
+    "pos": 190,
+    "end": 190,
+    "pointer": 49
+  },
+  {
+    "tokenID": 50,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 195,
+    "end": 201
+  },
+  {
+    "tokenID": 51,
+    "type": "identifier",
+    "value": "S4",
+    "pos": 203,
+    "end": 204,
+    "pointer": 51
+  },
+  {
+    "tokenID": 52,
+    "type": "identifier",
+    "value": "FIXED",
+    "pos": 206,
+    "end": 210,
+    "pointer": 24
+  },
+  {
+    "tokenID": 53,
+    "type": "identifier",
+    "value": "BINARY",
+    "pos": 212,
+    "end": 217,
+    "pointer": 53
+  },
+  {
+    "tokenID": 54,
+    "type": "operator",
+    "value": "(",
+    "pos": 218,
+    "end": 218,
+    "pointer": 54
+  },
+  {
+    "tokenID": 55,
+    "type": "numeric_constant",
+    "value": "16",
+    "pos": 219,
+    "end": 220,
+    "pointer": 55
+  },
+  {
+    "tokenID": 56,
+    "type": "operator",
+    "value": ")",
+    "pos": 221,
+    "end": 221,
+    "pointer": 56
+  },
+  {
+    "tokenID": 57,
+    "type": "keyword",
+    "value": "STATIC",
+    "pos": 223,
+    "end": 228
+  },
+  {
+    "tokenID": 58,
+    "type": "keyword",
+    "value": "INITIAL",
+    "pos": 230,
+    "end": 236
+  },
+  {
+    "tokenID": 59,
+    "type": "operator",
+    "value": "(",
+    "pos": 237,
+    "end": 237,
+    "pointer": 59
+  },
+  {
+    "tokenID": 60,
+    "type": "numeric_constant",
+    "value": "12345",
+    "pos": 238,
+    "end": 242,
+    "pointer": 60
+  },
+  {
+    "tokenID": 61,
+    "type": "operator",
+    "value": ")",
+    "pos": 243,
+    "end": 243,
+    "pointer": 61
+  },
+  {
+    "tokenID": 62,
+    "type": "operator",
+    "value": ";",
+    "pos": 244,
+    "end": 244,
+    "pointer": 62
+  },
+  {
+    "tokenID": 63,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 249,
+    "end": 255
+  },
+  {
+    "tokenID": 64,
+    "type": "identifier",
+    "value": "S5",
+    "pos": 257,
+    "end": 258,
+    "pointer": 64
+  },
+  {
+    "tokenID": 65,
+    "type": "identifier",
+    "value": "FLOAT",
+    "pos": 260,
+    "end": 264,
+    "pointer": 65
+  },
+  {
+    "tokenID": 66,
+    "type": "identifier",
+    "value": "BINARY",
+    "pos": 266,
+    "end": 271,
+    "pointer": 53
+  },
+  {
+    "tokenID": 67,
+    "type": "operator",
+    "value": "(",
+    "pos": 272,
+    "end": 272,
+    "pointer": 67
+  },
+  {
+    "tokenID": 68,
+    "type": "numeric_constant",
+    "value": "24",
+    "pos": 273,
+    "end": 274,
+    "pointer": 68
+  },
+  {
+    "tokenID": 69,
+    "type": "operator",
+    "value": ")",
+    "pos": 275,
+    "end": 275,
+    "pointer": 69
+  },
+  {
+    "tokenID": 70,
+    "type": "keyword",
+    "value": "STATIC",
+    "pos": 277,
+    "end": 282
+  },
+  {
+    "tokenID": 71,
+    "type": "keyword",
+    "value": "INITIAL",
+    "pos": 284,
+    "end": 290
+  },
+  {
+    "tokenID": 72,
+    "type": "operator",
+    "value": "(",
+    "pos": 291,
+    "end": 291,
+    "pointer": 72
+  },
+  {
+    "tokenID": 73,
+    "type": "numeric_constant",
+    "value": "3.14159",
+    "pos": 292,
+    "end": 298,
+    "pointer": 73
+  },
+  {
+    "tokenID": 74,
+    "type": "operator",
+    "value": ")",
+    "pos": 299,
+    "end": 299,
+    "pointer": 74
+  },
+  {
+    "tokenID": 75,
+    "type": "operator",
+    "value": ";",
+    "pos": 300,
+    "end": 300,
+    "pointer": 75
+  },
+  {
+    "tokenID": 76,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 305,
+    "end": 311
+  },
+  {
+    "tokenID": 77,
+    "type": "identifier",
+    "value": "S6",
+    "pos": 313,
+    "end": 314,
+    "pointer": 77
+  },
+  {
+    "tokenID": 78,
+    "type": "identifier",
+    "value": "DECIMAL",
+    "pos": 316,
+    "end": 322,
+    "pointer": 25
+  },
+  {
+    "tokenID": 79,
+    "type": "identifier",
+    "value": "FLOAT",
+    "pos": 324,
+    "end": 328,
+    "pointer": 65
+  },
+  {
+    "tokenID": 80,
+    "type": "operator",
+    "value": "(",
+    "pos": 329,
+    "end": 329,
+    "pointer": 80
+  },
+  {
+    "tokenID": 81,
+    "type": "numeric_constant",
+    "value": "10",
+    "pos": 330,
+    "end": 331,
+    "pointer": 27
+  },
+  {
+    "tokenID": 82,
+    "type": "operator",
+    "value": ")",
+    "pos": 332,
+    "end": 332,
+    "pointer": 82
+  },
+  {
+    "tokenID": 83,
+    "type": "keyword",
+    "value": "STATIC",
+    "pos": 334,
+    "end": 339
+  },
+  {
+    "tokenID": 84,
+    "type": "keyword",
+    "value": "INITIAL",
+    "pos": 341,
+    "end": 347
+  },
+  {
+    "tokenID": 85,
+    "type": "operator",
+    "value": "(",
+    "pos": 348,
+    "end": 348,
+    "pointer": 85
+  },
+  {
+    "tokenID": 86,
+    "type": "numeric_constant",
+    "value": "3674.799",
+    "pos": 349,
+    "end": 356,
+    "pointer": 34
+  },
+  {
+    "tokenID": 87,
+    "type": "operator",
+    "value": ")",
+    "pos": 357,
+    "end": 357,
+    "pointer": 87
+  },
+  {
+    "tokenID": 88,
+    "type": "operator",
+    "value": ";",
+    "pos": 358,
+    "end": 358,
+    "pointer": 88
+  },
+  {
+    "tokenID": 89,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 363,
+    "end": 369
+  },
+  {
+    "tokenID": 90,
+    "type": "identifier",
+    "value": "S7",
+    "pos": 371,
+    "end": 372,
+    "pointer": 90
+  },
+  {
+    "tokenID": 91,
+    "type": "identifier",
+    "value": "COMPLEX",
+    "pos": 374,
+    "end": 380,
+    "pointer": 91
+  },
+  {
+    "tokenID": 92,
+    "type": "identifier",
+    "value": "FLOAT",
+    "pos": 382,
+    "end": 386,
+    "pointer": 65
+  },
+  {
+    "tokenID": 93,
+    "type": "keyword",
+    "value": "STATIC",
+    "pos": 388,
+    "end": 393
+  },
+  {
+    "tokenID": 94,
+    "type": "keyword",
+    "value": "INITIAL",
+    "pos": 395,
+    "end": 401
+  },
+  {
+    "tokenID": 95,
+    "type": "operator",
+    "value": "(",
+    "pos": 402,
+    "end": 402,
+    "pointer": 95
+  },
+  {
+    "tokenID": 96,
+    "type": "string_constant",
+    "value": "1+2I",
+    "pos": 403,
+    "end": 408,
+    "pointer": 96
+  },
+  {
+    "tokenID": 97,
+    "type": "operator",
+    "value": ")",
+    "pos": 409,
+    "end": 409,
+    "pointer": 97
+  },
+  {
+    "tokenID": 98,
+    "type": "operator",
+    "value": ";",
+    "pos": 410,
+    "end": 410,
+    "pointer": 98
+  },
+  {
+    "tokenID": 99,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 415,
+    "end": 421
+  },
+  {
+    "tokenID": 100,
+    "type": "identifier",
+    "value": "S8",
+    "pos": 423,
+    "end": 424,
+    "pointer": 100
+  },
+  {
+    "tokenID": 101,
+    "type": "identifier",
+    "value": "LABEL",
+    "pos": 426,
+    "end": 430,
+    "pointer": 101
+  },
+  {
+    "tokenID": 102,
+    "type": "operator",
+    "value": ";",
+    "pos": 431,
+    "end": 431,
+    "pointer": 102
+  },
+  {
+    "tokenID": 103,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 436,
+    "end": 442
+  },
+  {
+    "tokenID": 104,
+    "type": "identifier",
+    "value": "S9",
+    "pos": 444,
+    "end": 445,
+    "pointer": 104
+  },
+  {
+    "tokenID": 105,
+    "type": "identifier",
+    "value": "ENTRY",
+    "pos": 447,
+    "end": 451,
+    "pointer": 105
+  },
+  {
+    "tokenID": 106,
+    "type": "identifier",
+    "value": "VARIABLE",
+    "pos": 453,
+    "end": 460,
+    "pointer": 106
+  },
+  {
+    "tokenID": 107,
+    "type": "operator",
+    "value": ";",
+    "pos": 461,
+    "end": 461,
+    "pointer": 107
+  },
+  {
+    "tokenID": 108,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 466,
+    "end": 472
+  },
+  {
+    "tokenID": 109,
+    "type": "identifier",
+    "value": "S10",
+    "pos": 474,
+    "end": 476,
+    "pointer": 109
+  },
+  {
+    "tokenID": 110,
+    "type": "identifier",
+    "value": "POINTER",
+    "pos": 478,
+    "end": 484,
+    "pointer": 110
+  },
+  {
+    "tokenID": 111,
+    "type": "operator",
+    "value": ";",
+    "pos": 485,
+    "end": 485,
+    "pointer": 111
+  },
+  {
+    "tokenID": 112,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 490,
+    "end": 496
+  },
+  {
+    "tokenID": 113,
+    "type": "identifier",
+    "value": "S11",
+    "pos": 498,
+    "end": 500,
+    "pointer": 113
+  },
+  {
+    "tokenID": 114,
+    "type": "keyword",
+    "value": "FILE",
+    "pos": 502,
+    "end": 505
+  },
+  {
+    "tokenID": 115,
+    "type": "operator",
+    "value": ";",
+    "pos": 506,
+    "end": 506,
+    "pointer": 115
+  },
+  {
+    "tokenID": 116,
+    "type": "keyword",
+    "value": "OPEN",
+    "pos": 512,
+    "end": 515
+  },
+  {
+    "tokenID": 117,
+    "type": "keyword",
+    "value": "FILE",
+    "pos": 517,
+    "end": 520
+  },
+  {
+    "tokenID": 118,
+    "type": "operator",
+    "value": "(",
+    "pos": 521,
+    "end": 521,
+    "pointer": 118
+  },
+  {
+    "tokenID": 119,
+    "type": "identifier",
+    "value": "S11",
+    "pos": 522,
+    "end": 524,
+    "pointer": 113
+  },
+  {
+    "tokenID": 120,
+    "type": "operator",
+    "value": ")",
+    "pos": 525,
+    "end": 525,
+    "pointer": 120
+  },
+  {
+    "tokenID": 121,
+    "type": "keyword",
+    "value": "UPDATE",
+    "pos": 527,
+    "end": 532
+  },
+  {
+    "tokenID": 122,
+    "type": "keyword",
+    "value": "RECORD",
+    "pos": 534,
+    "end": 539
+  },
+  {
+    "tokenID": 123,
+    "type": "keyword",
+    "value": "TITLE",
+    "pos": 541,
+    "end": 545
+  },
+  {
+    "tokenID": 124,
+    "type": "operator",
+    "value": "(",
+    "pos": 546,
+    "end": 546,
+    "pointer": 124
+  },
+  {
+    "tokenID": 125,
+    "type": "string_constant",
+    "value": "output.txt",
+    "pos": 547,
+    "end": 558,
+    "pointer": 125
+  },
+  {
+    "tokenID": 126,
+    "type": "operator",
+    "value": ")",
+    "pos": 559,
+    "end": 559,
+    "pointer": 126
+  },
+  {
+    "tokenID": 127,
+    "type": "operator",
+    "value": ";",
+    "pos": 560,
+    "end": 560,
+    "pointer": 127
+  },
+  {
+    "tokenID": 128,
+    "type": "keyword",
+    "value": "DECLARE",
+    "pos": 566,
+    "end": 572
+  },
+  {
+    "tokenID": 129,
+    "type": "identifier",
+    "value": "based_S2",
+    "pos": 574,
+    "end": 581,
+    "pointer": 129
+  },
+  {
+    "tokenID": 130,
+    "type": "identifier",
+    "value": "FIXED",
+    "pos": 583,
+    "end": 587,
+    "pointer": 24
+  },
+  {
+    "tokenID": 131,
+    "type": "identifier",
+    "value": "DECIMAL",
+    "pos": 589,
+    "end": 595,
+    "pointer": 25
+  },
+  {
+    "tokenID": 132,
+    "type": "operator",
+    "value": "(",
+    "pos": 596,
+    "end": 596,
+    "pointer": 132
+  },
+  {
+    "tokenID": 133,
+    "type": "numeric_constant",
+    "value": "10",
+    "pos": 597,
+    "end": 598,
+    "pointer": 27
+  },
+  {
+    "tokenID": 134,
+    "type": "operator",
+    "value": ",",
+    "pos": 599,
+    "end": 599,
+    "pointer": 134
+  },
+  {
+    "tokenID": 135,
+    "type": "numeric_constant",
+    "value": "5",
+    "pos": 600,
+    "end": 600,
+    "pointer": 29
+  },
+  {
+    "tokenID": 136,
+    "type": "operator",
+    "value": ")",
+    "pos": 601,
+    "end": 601,
+    "pointer": 136
+  },
+  {
+    "tokenID": 137,
+    "type": "keyword",
+    "value": "BASED",
+    "pos": 603,
+    "end": 607
+  },
+  {
+    "tokenID": 138,
+    "type": "operator",
+    "value": "(",
+    "pos": 608,
+    "end": 608,
+    "pointer": 138
+  },
+  {
+    "tokenID": 139,
+    "type": "identifier",
+    "value": "S10",
+    "pos": 609,
+    "end": 611,
+    "pointer": 109
+  },
+  {
+    "tokenID": 140,
+    "type": "operator",
+    "value": ")",
+    "pos": 612,
+    "end": 612,
+    "pointer": 140
+  },
+  {
+    "tokenID": 141,
+    "type": "operator",
+    "value": ";",
+    "pos": 613,
+    "end": 613,
+    "pointer": 141
+  },
+  {
+    "tokenID": 142,
+    "type": "identifier",
+    "value": "S9",
+    "pos": 619,
+    "end": 620,
+    "pointer": 104
+  },
+  {
+    "tokenID": 143,
+    "type": "operator",
+    "value": "=",
+    "pos": 622,
+    "end": 622,
+    "pointer": 143
+  },
+  {
+    "tokenID": 144,
+    "type": "identifier",
+    "value": "simple_procedure",
+    "pos": 624,
+    "end": 639,
+    "pointer": 144
+  },
+  {
+    "tokenID": 145,
+    "type": "operator",
+    "value": ";",
+    "pos": 640,
+    "end": 640,
+    "pointer": 145
+  },
+  {
+    "tokenID": 146,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 646,
+    "end": 648
+  },
+  {
+    "tokenID": 147,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 650,
+    "end": 653
+  },
+  {
+    "tokenID": 148,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 655,
+    "end": 658
+  },
+  {
+    "tokenID": 149,
+    "type": "operator",
+    "value": "(",
+    "pos": 659,
+    "end": 659,
+    "pointer": 149
+  },
+  {
+    "tokenID": 150,
+    "type": "identifier",
+    "value": "S1",
+    "pos": 660,
+    "end": 661,
+    "pointer": 10
+  },
+  {
+    "tokenID": 151,
+    "type": "operator",
+    "value": ")",
+    "pos": 662,
+    "end": 662,
+    "pointer": 151
+  },
+  {
+    "tokenID": 152,
+    "type": "operator",
+    "value": ";",
+    "pos": 663,
+    "end": 663,
+    "pointer": 152
+  },
+  {
+    "tokenID": 153,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 668,
+    "end": 670
+  },
+  {
+    "tokenID": 154,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 672,
+    "end": 675
+  },
+  {
+    "tokenID": 155,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 677,
+    "end": 680
+  },
+  {
+    "tokenID": 156,
+    "type": "operator",
+    "value": "(",
+    "pos": 681,
+    "end": 681,
+    "pointer": 156
+  },
+  {
+    "tokenID": 157,
+    "type": "identifier",
+    "value": "S2",
+    "pos": 682,
+    "end": 683,
+    "pointer": 23
+  },
+  {
+    "tokenID": 158,
+    "type": "operator",
+    "value": ")",
+    "pos": 684,
+    "end": 684,
+    "pointer": 158
+  },
+  {
+    "tokenID": 159,
+    "type": "operator",
+    "value": ";",
+    "pos": 685,
+    "end": 685,
+    "pointer": 159
+  },
+  {
+    "tokenID": 160,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 690,
+    "end": 692
+  },
+  {
+    "tokenID": 161,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 694,
+    "end": 697
+  },
+  {
+    "tokenID": 162,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 699,
+    "end": 702
+  },
+  {
+    "tokenID": 163,
+    "type": "operator",
+    "value": "(",
+    "pos": 703,
+    "end": 703,
+    "pointer": 163
+  },
+  {
+    "tokenID": 164,
+    "type": "identifier",
+    "value": "S3",
+    "pos": 704,
+    "end": 705,
+    "pointer": 38
+  },
+  {
+    "tokenID": 165,
+    "type": "operator",
+    "value": ")",
+    "pos": 706,
+    "end": 706,
+    "pointer": 165
+  },
+  {
+    "tokenID": 166,
+    "type": "operator",
+    "value": ";",
+    "pos": 707,
+    "end": 707,
+    "pointer": 166
+  },
+  {
+    "tokenID": 167,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 712,
+    "end": 714
+  },
+  {
+    "tokenID": 168,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 716,
+    "end": 719
+  },
+  {
+    "tokenID": 169,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 721,
+    "end": 724
+  },
+  {
+    "tokenID": 170,
+    "type": "operator",
+    "value": "(",
+    "pos": 725,
+    "end": 725,
+    "pointer": 170
+  },
+  {
+    "tokenID": 171,
+    "type": "identifier",
+    "value": "S4",
+    "pos": 726,
+    "end": 727,
+    "pointer": 51
+  },
+  {
+    "tokenID": 172,
+    "type": "operator",
+    "value": ")",
+    "pos": 728,
+    "end": 728,
+    "pointer": 172
+  },
+  {
+    "tokenID": 173,
+    "type": "operator",
+    "value": ";",
+    "pos": 729,
+    "end": 729,
+    "pointer": 173
+  },
+  {
+    "tokenID": 174,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 734,
+    "end": 736
+  },
+  {
+    "tokenID": 175,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 738,
+    "end": 741
+  },
+  {
+    "tokenID": 176,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 743,
+    "end": 746
+  },
+  {
+    "tokenID": 177,
+    "type": "operator",
+    "value": "(",
+    "pos": 747,
+    "end": 747,
+    "pointer": 177
+  },
+  {
+    "tokenID": 178,
+    "type": "identifier",
+    "value": "S5",
+    "pos": 748,
+    "end": 749,
+    "pointer": 64
+  },
+  {
+    "tokenID": 179,
+    "type": "operator",
+    "value": ")",
+    "pos": 750,
+    "end": 750,
+    "pointer": 179
+  },
+  {
+    "tokenID": 180,
+    "type": "operator",
+    "value": ";",
+    "pos": 751,
+    "end": 751,
+    "pointer": 180
+  },
+  {
+    "tokenID": 181,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 756,
+    "end": 758
+  },
+  {
+    "tokenID": 182,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 760,
+    "end": 763
+  },
+  {
+    "tokenID": 183,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 765,
+    "end": 768
+  },
+  {
+    "tokenID": 184,
+    "type": "operator",
+    "value": "(",
+    "pos": 769,
+    "end": 769,
+    "pointer": 184
+  },
+  {
+    "tokenID": 185,
+    "type": "identifier",
+    "value": "S6",
+    "pos": 770,
+    "end": 771,
+    "pointer": 77
+  },
+  {
+    "tokenID": 186,
+    "type": "operator",
+    "value": ")",
+    "pos": 772,
+    "end": 772,
+    "pointer": 186
+  },
+  {
+    "tokenID": 187,
+    "type": "operator",
+    "value": ";",
+    "pos": 773,
+    "end": 773,
+    "pointer": 187
+  },
+  {
+    "tokenID": 188,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 778,
+    "end": 780
+  },
+  {
+    "tokenID": 189,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 782,
+    "end": 785
+  },
+  {
+    "tokenID": 190,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 787,
+    "end": 790
+  },
+  {
+    "tokenID": 191,
+    "type": "operator",
+    "value": "(",
+    "pos": 791,
+    "end": 791,
+    "pointer": 191
+  },
+  {
+    "tokenID": 192,
+    "type": "identifier",
+    "value": "S7",
+    "pos": 792,
+    "end": 793,
+    "pointer": 90
+  },
+  {
+    "tokenID": 193,
+    "type": "operator",
+    "value": ")",
+    "pos": 794,
+    "end": 794,
+    "pointer": 193
+  },
+  {
+    "tokenID": 194,
+    "type": "operator",
+    "value": ";",
+    "pos": 795,
+    "end": 795,
+    "pointer": 194
+  },
+  {
+    "tokenID": 195,
+    "type": "identifier",
+    "value": "S10",
+    "pos": 801,
+    "end": 803,
+    "pointer": 109
+  },
+  {
+    "tokenID": 196,
+    "type": "operator",
+    "value": "=",
+    "pos": 805,
+    "end": 805,
+    "pointer": 196
+  },
+  {
+    "tokenID": 197,
+    "type": "keyword",
+    "value": "ADDR",
+    "pos": 807,
+    "end": 810
+  },
+  {
+    "tokenID": 198,
+    "type": "operator",
+    "value": "(",
+    "pos": 811,
+    "end": 811,
+    "pointer": 198
+  },
+  {
+    "tokenID": 199,
+    "type": "identifier",
+    "value": "S2",
+    "pos": 812,
+    "end": 813,
+    "pointer": 23
+  },
+  {
+    "tokenID": 200,
+    "type": "operator",
+    "value": ")",
+    "pos": 814,
+    "end": 814,
+    "pointer": 200
+  },
+  {
+    "tokenID": 201,
+    "type": "operator",
+    "value": ";",
+    "pos": 815,
+    "end": 815,
+    "pointer": 201
+  },
+  {
+    "tokenID": 202,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 820,
+    "end": 822
+  },
+  {
+    "tokenID": 203,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 824,
+    "end": 827
+  },
+  {
+    "tokenID": 204,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 829,
+    "end": 832
+  },
+  {
+    "tokenID": 205,
+    "type": "operator",
+    "value": "(",
+    "pos": 833,
+    "end": 833,
+    "pointer": 205
+  },
+  {
+    "tokenID": 206,
+    "type": "string_constant",
+    "value": "До, S2 = ",
+    "pos": 834,
+    "end": 844,
+    "pointer": 206
+  },
+  {
+    "tokenID": 207,
+    "type": "operator",
+    "value": ",",
+    "pos": 845,
+    "end": 845,
+    "pointer": 207
+  },
+  {
+    "tokenID": 208,
+    "type": "identifier",
+    "value": "S2",
+    "pos": 847,
+    "end": 848,
+    "pointer": 23
+  },
+  {
+    "tokenID": 209,
+    "type": "operator",
+    "value": ")",
+    "pos": 849,
+    "end": 849,
+    "pointer": 209
+  },
+  {
+    "tokenID": 210,
+    "type": "operator",
+    "value": ";",
+    "pos": 850,
+    "end": 850,
+    "pointer": 210
+  },
+  {
+    "tokenID": 211,
+    "type": "identifier",
+    "value": "based_S2",
+    "pos": 855,
+    "end": 862,
+    "pointer": 129
+  },
+  {
+    "tokenID": 212,
+    "type": "operator",
+    "value": "=",
+    "pos": 864,
+    "end": 864,
+    "pointer": 212
+  },
+  {
+    "tokenID": 213,
+    "type": "identifier",
+    "value": "S2",
+    "pos": 866,
+    "end": 867,
+    "pointer": 23
+  },
+  {
+    "tokenID": 214,
+    "type": "operator",
+    "value": "+",
+    "pos": 869,
+    "end": 869,
+    "pointer": 214
+  },
+  {
+    "tokenID": 215,
+    "type": "numeric_constant",
+    "value": "100",
+    "pos": 871,
+    "end": 873,
+    "pointer": 215
+  },
+  {
+    "tokenID": 216,
+    "type": "operator",
+    "value": ";",
+    "pos": 874,
+    "end": 874,
+    "pointer": 216
+  },
+  {
+    "tokenID": 217,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 879,
+    "end": 881
+  },
+  {
+    "tokenID": 218,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 883,
+    "end": 886
+  },
+  {
+    "tokenID": 219,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 888,
+    "end": 891
+  },
+  {
+    "tokenID": 220,
+    "type": "operator",
+    "value": "(",
+    "pos": 892,
+    "end": 892,
+    "pointer": 220
+  },
+  {
+    "tokenID": 221,
+    "type": "string_constant",
+    "value": "После, S2 = ",
+    "pos": 893,
+    "end": 906,
+    "pointer": 221
+  },
+  {
+    "tokenID": 222,
+    "type": "operator",
+    "value": ",",
+    "pos": 907,
+    "end": 907,
+    "pointer": 222
+  },
+  {
+    "tokenID": 223,
+    "type": "identifier",
+    "value": "S2",
+    "pos": 909,
+    "end": 910,
+    "pointer": 23
+  },
+  {
+    "tokenID": 224,
+    "type": "operator",
+    "value": ")",
+    "pos": 911,
+    "end": 911,
+    "pointer": 224
+  },
+  {
+    "tokenID": 225,
+    "type": "operator",
+    "value": ";",
+    "pos": 912,
+    "end": 912,
+    "pointer": 225
+  },
+  {
+    "tokenID": 226,
+    "type": "keyword",
+    "value": "IF",
+    "pos": 918,
+    "end": 919
+  },
+  {
+    "tokenID": 227,
+    "type": "identifier",
+    "value": "S1",
+    "pos": 921,
+    "end": 922,
+    "pointer": 10
+  },
+  {
+    "tokenID": 228,
+    "type": "operator",
+    "value": "=",
+    "pos": 924,
+    "end": 924,
+    "pointer": 228
+  },
+  {
+    "tokenID": 229,
+    "type": "string_constant",
+    "value": "yes",
+    "pos": 926,
+    "end": 930,
+    "pointer": 19
+  },
+  {
+    "tokenID": 230,
+    "type": "keyword",
+    "value": "THEN",
+    "pos": 932,
+    "end": 935
+  },
+  {
+    "tokenID": 231,
+    "type": "identifier",
+    "value": "S8",
+    "pos": 937,
+    "end": 938,
+    "pointer": 100
+  },
+  {
+    "tokenID": 232,
+    "type": "operator",
+    "value": "=",
+    "pos": 940,
+    "end": 940,
+    "pointer": 232
+  },
+  {
+    "tokenID": 233,
+    "type": "identifier",
+    "value": "geometric_mean",
+    "pos": 942,
+    "end": 955,
+    "pointer": 233
+  },
+  {
+    "tokenID": 234,
+    "type": "operator",
+    "value": ";",
+    "pos": 956,
+    "end": 956,
+    "pointer": 234
+  },
+  {
+    "tokenID": 235,
+    "type": "keyword",
+    "value": "GOTO",
+    "pos": 962,
+    "end": 965
+  },
+  {
+    "tokenID": 236,
+    "type": "identifier",
+    "value": "S8",
+    "pos": 967,
+    "end": 968,
+    "pointer": 100
+  },
+  {
+    "tokenID": 237,
+    "type": "operator",
+    "value": ";",
+    "pos": 969,
+    "end": 969,
+    "pointer": 237
+  },
+  {
+    "tokenID": 238,
+    "type": "identifier",
+    "value": "geometric_mean",
+    "pos": 972,
+    "end": 985,
+    "pointer": 233
+  },
+  {
+    "tokenID": 239,
+    "type": "operator",
+    "value": ":",
+    "pos": 986,
+    "end": 986,
+    "pointer": 239
+  },
+  {
+    "tokenID": 240,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 991,
+    "end": 993
+  },
+  {
+    "tokenID": 241,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 995,
+    "end": 998
+  },
+  {
+    "tokenID": 242,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 1000,
+    "end": 1003
+  },
+  {
+    "tokenID": 243,
+    "type": "operator",
+    "value": "(",
+    "pos": 1004,
+    "end": 1004,
+    "pointer": 243
+  },
+  {
+    "tokenID": 244,
+    "type": "string_constant",
+    "value": "Перешли в geometric_mean",
+    "pos": 1005,
+    "end": 1030,
+    "pointer": 244
+  },
+  {
+    "tokenID": 245,
+    "type": "operator",
+    "value": ")",
+    "pos": 1031,
+    "end": 1031,
+    "pointer": 245
+  },
+  {
+    "tokenID": 246,
+    "type": "operator",
+    "value": ";",
+    "pos": 1032,
+    "end": 1032,
+    "pointer": 246
+  },
+  {
+    "tokenID": 247,
+    "type": "keyword",
+    "value": "CALL",
+    "pos": 1037,
+    "end": 1040
+  },
+  {
+    "tokenID": 248,
+    "type": "identifier",
+    "value": "S9",
+    "pos": 1042,
+    "end": 1043,
+    "pointer": 104
+  },
+  {
+    "tokenID": 249,
+    "type": "operator",
+    "value": ";",
+    "pos": 1044,
+    "end": 1044,
+    "pointer": 249
+  },
+  {
+    "tokenID": 250,
+    "type": "identifier",
+    "value": "simple_procedure",
+    "pos": 1050,
+    "end": 1065,
+    "pointer": 144
+  },
+  {
+    "tokenID": 251,
+    "type": "operator",
+    "value": ":",
+    "pos": 1066,
+    "end": 1066,
+    "pointer": 251
+  },
+  {
+    "tokenID": 252,
+    "type": "keyword",
+    "value": "PROCEDURE",
+    "pos": 1068,
+    "end": 1076
+  },
+  {
+    "tokenID": 253,
+    "type": "operator",
+    "value": ";",
+    "pos": 1077,
+    "end": 1077,
+    "pointer": 253
+  },
+  {
+    "tokenID": 254,
+    "type": "keyword",
+    "value": "PUT",
+    "pos": 1085,
+    "end": 1087
+  },
+  {
+    "tokenID": 255,
+    "type": "keyword",
+    "value": "SKIP",
+    "pos": 1089,
+    "end": 1092
+  },
+  {
+    "tokenID": 256,
+    "type": "keyword",
+    "value": "LIST",
+    "pos": 1094,
+    "end": 1097
+  },
+  {
+    "tokenID": 257,
+    "type": "operator",
+    "value": "(",
+    "pos": 1098,
+    "end": 1098,
+    "pointer": 257
+  },
+  {
+    "tokenID": 258,
+    "type": "string_constant",
+    "value": "Вызвана simple_procedure",
+    "pos": 1099,
+    "end": 1124,
+    "pointer": 258
+  },
+  {
+    "tokenID": 259,
+    "type": "operator",
+    "value": ")",
+    "pos": 1125,
+    "end": 1125,
+    "pointer": 259
+  },
+  {
+    "tokenID": 260,
+    "type": "operator",
+    "value": ";",
+    "pos": 1126,
+    "end": 1126,
+    "pointer": 260
+  },
+  {
+    "tokenID": 261,
+    "type": "keyword",
+    "value": "END",
+    "pos": 1131,
+    "end": 1133
+  },
+  {
+    "tokenID": 262,
+    "type": "identifier",
+    "value": "simple_procedure",
+    "pos": 1135,
+    "end": 1150,
+    "pointer": 144
+  },
+  {
+    "tokenID": 263,
+    "type": "operator",
+    "value": ";",
+    "pos": 1151,
+    "end": 1151,
+    "pointer": 263
+  },
+  {
+    "tokenID": 264,
+    "type": "keyword",
+    "value": "END",
+    "pos": 1154,
+    "end": 1156
+  },
+  {
+    "tokenID": 265,
+    "type": "identifier",
+    "value": "test",
+    "pos": 1158,
+    "end": 1161,
+    "pointer": 1
+  },
+  {
+    "tokenID": 266,
+    "type": "operator",
+    "value": ";",
+    "pos": 1162,
+    "end": 1162,
+    "pointer": 266
+  }
+]

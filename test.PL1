@@ -1,0 +1,3 @@
+test: PROCEDURE OPTIONS(main);
+    PUT SKIP LIST('test output');
+END test;
